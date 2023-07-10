@@ -1,0 +1,71 @@
+/* common shared font styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header section styles */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+    height: 700px;
+}
+
+.header-container {
+    display: flex;
+    justify-content:space-between;
+}
+
+.header-greeting {
+    /* padding: 190px 240px; */
+    margin: 190px 240px;
+}
+
+.header-title {
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+    color: #272727;
+    font-size: 50px;
+
+
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.primary-color {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* header image styles */
+.header-img-container{
+    margin: 50px ;
+
+}
+.header-img {
+    /* width: 400px;
+    height: 500px;
+    margin: 50px ; */
+    width: 100%;
+   
+}
